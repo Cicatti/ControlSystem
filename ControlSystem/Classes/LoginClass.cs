@@ -32,7 +32,7 @@ namespace ControlSystem.Classes
                 }
                 else
                 {
-                    message = "Email Incorrect";
+                    message = "Incorrect Email";
                     conexao.desconectar();
                     MessageBox.Show(message);
                 }

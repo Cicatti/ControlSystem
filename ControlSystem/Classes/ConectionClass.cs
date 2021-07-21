@@ -19,7 +19,7 @@ namespace ControlSystem
             }
             catch(SqlException e)
             {
-                this.message = "Data Base Error";
+                this.message = "Database Error";
             }
             
 
